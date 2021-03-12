@@ -1,4 +1,4 @@
-# DrowsinessDetection
+# Diver's Drowsiness Detection
 The purpose of this project is to investigate the development of a system for
 detecting the likelihood that a driver is about to fall asleep in control of the vehicle,
 and to sound an alarm or carry out some other function if this occurs. The system will
@@ -12,3 +12,6 @@ the eyes start to fall towards the bottom of the image (in a video sequence), th
 might suggest that the driver's head is starting to droop. At the sometime, the
 system should not react inappropriately to "natural" movement of the driver's eyes,
 e.g. if the driver turns his/her head to look out the side window.
+
+Built by processing images of the driver's face at a high frame rate.  
+Technologies: Eye Aspect Ratio, Hough Transformation in Dlib, Haar Cascade Classifier in OpenCV library.
